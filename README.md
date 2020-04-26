@@ -14,7 +14,7 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
   1.  Clone this repo.
   2.  Load the track pack disc/ISO image into your drive.
   3.  Copy all files inside `GEN` into the corresponding folders provided - `RBTPV1` and/or `RBTPV2`
-  4.  If you already have RB2 in ISO image form, just laod it in Apache3 and skip to **#9**. Otherwise...
+  4.  If you already have RB2 in ISO image form, just load it in Apache3 and skip to **#9**. Otherwise...
   5.  Load the RB2 disc.
   6.  Open Apache3 and select your drive.
   7.  You should only see **Layer 1** at this point; click the `Create ISO image from CD/DVD` button. (to the left of the gear button)
