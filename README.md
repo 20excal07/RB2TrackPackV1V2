@@ -21,7 +21,7 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
   8.  Save the ISO whereever, then open it in Apache3. It should now reveal **Layer 2** in addition to Layer 1.
   9.  Right-click anywhere on the left-side window pane, and choose to `Extract All`.
   10. Now copy over everything inside the `GEN` folder to the root of the repo's directory (where you cloned it).
-  10b. You might notice there are `MAIN3`, `MAIN4` and `MAIN5` arks that are *not* inside that `GEN` folder. Those need to be in the repo's root as well. 
+      - You might notice there are `MAIN3`, `MAIN4` and `MAIN5` arks that are *not* inside that `GEN` folder. Those need to be in the repo's root as well. 
   11. Execute `extract.bat`, wait for it to finish.
   12. Execute `patch.bat`, follow the instructions, and wait for it to finish.
   13. Launch ArkToolGUI, open the repo folder (where the `MAIN.HDR` file is), then `File` > `Save As`, save anywhere in a folder labeled `GEN`. You will need this folder when burning to your new ISO image.
