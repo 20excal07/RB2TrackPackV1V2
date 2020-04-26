@@ -38,6 +38,11 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
   20. Wait for it to finish, then patch the ISO with `DiscPatcher.exe`, with the `Master Disc` option ticked.
   21. **YOU ARE DONE, GO PLAY THE GAME.**
 
+**For reference, the final contents of your ISO should look identical to the original disc, except now you only have these files inside the `GEN` folder:**
+  - MAIN.HDR
+  - main_0.ark
+  - main_1.ark
+
 ## What's broken at the moment?
   1. Tour/Career mode is absolutely broken because it's not made to house these new songs. I will attempt to fix this up at some point.
   2. Selecting "Move Along" in the Song Selection screen will crash the game if you allow it to play the preview audio. This has something to do with the placement of the song's files inside the `.ark` archive and should fix itself once I'm done with Vol2. If you want to play it, quickly confirm your selection before the preview audio plays.
