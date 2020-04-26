@@ -38,7 +38,7 @@ for /f "usebackq tokens=*" %%a in (`dir /s /b /a-d "!pwd!\songs\*.*"`) do (
 )
 
 echo.
-echo ALL DONE! Please use ArkToolGUI to rebuild the ARK files next.
+echo ALL DONE^^! Please use ArkToolGUI to rebuild the ARK files next.
 echo.
 echo Would you also like to play drums with the Dualshock controller?
 echo Please note that this will render the actual drums controller unusable.
