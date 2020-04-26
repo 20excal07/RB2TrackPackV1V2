@@ -8,7 +8,7 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
   4.  Apache3, DiscPatcher, ArkTool and ArkToolGUI - all provided in this repo inside the `tools` folder.
   5.  Any file compression/extraction utility. (WinRAR, etc)
   5.  A softmodded PS2 - you should be able to load backups or play via a USB drive using OpenPS2Loader.
-  6.  Seriously, you can't do this if you don't have #6.
+  6.  A PS2 emulator if you don't have access to a softmodded PS2.
   
 ## How to do
   1.  Clone this repo.
