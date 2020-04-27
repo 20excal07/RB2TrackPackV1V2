@@ -1,6 +1,12 @@
 # Rock Band 2 Track Packs Vol.1+2
 Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
 
+## Features
+  1.  Complete metadata for songs. (album title, album art, release year, etc.)
+  2.  Multitracks are brought over and kept as is.
+  3.  Optional patch to play drums with your Dualshock controller.
+
+
 ## Requirements
   1.  Rock Band 2 for PS2. NTSC/PAL will work fine.
   2.  Rock Band Track Pack discs. NTSC/PAL doesn't matter, we only need the songs.
