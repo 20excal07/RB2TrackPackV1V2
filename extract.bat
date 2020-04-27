@@ -16,6 +16,10 @@ for /f "tokens=3 delims= " %%G in ('ArkTool.exe -p RBTPV2 songs/*.* ^| findstr /
 	if !errorlevel! == 1 (ArkTool.exe -e RBTPV2 %%G .)
 )
 
+del songs\snowheyoh\snowheyoh.vgs
+del songs\timeisrunningout\timeisrunningout.vgs
+del songs\whydoyouloveme\whydoyouloveme.vgs
+
 echo.
 echo ALL DONE^^!
 echo.

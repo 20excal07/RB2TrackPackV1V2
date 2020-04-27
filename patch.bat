@@ -7,10 +7,11 @@ echo NOTE: YOU WILL ONLY BE ABLE TO APPLY THIS SCRIPT ONCE WITHOUT REUSING THE O
 echo Please make sure you have a backup in case it goes wrong^^!
 echo. 
 echo This script will:
-echo    1. Remove all of the on-disc songs, no exceptions
-echo    2. Remove three bloat video files; two credits BG vids, one attract video
-echo    3. Insert the track pack songs.
-echo    4. (OPTIONAL) Apply a patch to allow playing drums with a dualshock
+echo    1. Remove all of the on-disc songs, no exceptions.
+echo    2. Remove tutorial songs to save space (effectively breaking tutorial mode).
+echo    3. Remove three bloat video files; two credits BG vids, one attract video.
+echo    4. Insert the track pack songs.
+echo    5. (OPTIONAL) Apply a patch to allow playing drums with a dualshock.
 echo.
 
 set /p=Hit [ENTER] to continue, or close this window to back out.
@@ -19,6 +20,11 @@ echo.
 echo REMOVING ON-DISC SONGS...
 timeout 1 >nul
 for /f "tokens=3 delims= " %%G in ('ArkTool.exe -p . songs/*.* ^| findstr /i "songs"') do ArkTool.exe -d . %%G
+
+echo.
+echo REMOVING TUTORIAL SONGS...
+timeout 1 >nul
+for /f "tokens=3 delims= " %%G in ('ArkTool.exe -p . tutorial/songs/*.vgs ^| findstr /i "tutorial"') do ArkTool.exe -d . %%G
 
 echo.
 echo REMOVING BLOAT VIDEOS...
