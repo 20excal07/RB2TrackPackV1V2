@@ -3,12 +3,13 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
 
 ## Requirements
   1.  Rock Band 2 for PS2. NTSC/PAL will work fine.
-  2.  Rock Band Track Pack discs. **At the moment, only Vol.1 is supported.** NTSC/PAL doesn't matter, we only need the songs.
+  2.  Rock Band Track Pack discs. NTSC/PAL doesn't matter, we only need the songs.
   3.  [**IMGburn**](https://www.imgburn.com/)
   4.  Apache3, DiscPatcher, ArkTool and ArkToolGUI - all provided in this repo inside the `tools` folder.
   5.  Any file compression/extraction utility. (WinRAR, etc)
   5.  A softmodded PS2 - you should be able to load backups or play via a USB drive using OpenPS2Loader.
-  6.  A PS2 emulator if you don't have access to a softmodded PS2.
+  6.  [A utility to help solve potential issues with dual-layer backups](https://www.psx-place.com/resources/toxic-dual-layer-dvd9-image-patcher.705/)
+  7.  A PS2 emulator if you don't have access to a softmodded PS2.
   
 ## How to do
   1.  Clone this repo.
@@ -38,12 +39,13 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
   20. Wait for it to finish, then patch the ISO with `DiscPatcher.exe`, with the `Master Disc` option ticked.
   21. **YOU ARE DONE, GO PLAY THE GAME.**
 
-**For reference, the final contents of your ISO should look identical to the original disc, except now you only have these files inside the `GEN` folder:**
+**For reference, the final contents of your ISO should look identical to the original disc, except now you only have these files inside the `GEN` folder (note the lower case letters!):**
   - MAIN.HDR
   - main_0.ark
   - main_1.ark
+  - main_2.ark
 
 ## What's broken at the moment?
-  1. Tour/Career mode is absolutely broken because it's not made to house these new songs. I will attempt to fix this up at some point.
-  2. Selecting "Move Along" in the Song Selection screen will crash the game if you allow it to play the preview audio. This has something to do with the placement of the song's files inside the `.ark` archive and should fix itself once I'm done with Vol2. If you want to play it, quickly confirm your selection before the preview audio plays.
+  1. **Tutorial Mode.** This is on purpose, as it helps save disc space. Please don't go into tutorial mode with this disc.
+  2. Tour/Career mode is absolutely broken because it's not made to house these new songs. I will attempt to fix this up at some point.
   3. Album art graphics is wonky because I don't have the right tools to have them render properly. Very minor issue though.
