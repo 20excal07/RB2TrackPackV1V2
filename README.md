@@ -45,6 +45,7 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
       - SYSTEM.CNF
       - GEN/ (the new one you made, not the one from the original disc!)
       - IOP/
+      
       (note: while IMGburn may not list the files/folders as such, it will burn them in the exact order you added them.)
   20. Wait for it to finish, then patch the ISO with `DiscPatcher.exe`, with the `Master Disc` option ticked.
   21. **YOU ARE DONE, GO PLAY THE GAME.**
