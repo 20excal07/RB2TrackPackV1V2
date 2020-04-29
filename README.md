@@ -35,6 +35,7 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
   12. Execute `patch.bat`, follow the instructions, and wait for it to finish.
   13. Launch ArkToolGUI, open the repo folder (where the `MAIN.HDR` file is), then `File` > `Save As`, save anywhere in a folder labeled `GEN`. You will need this folder when burning to your new ISO image.
   14. Exit ArkToolGUI, and move `MAIN.HDR` to your newly created `GEN` folder, housing the rest of the `MAIN_` files.
+      - You MUST exit the tool before performing this step, as this will update the `MAIN.HDR` file as needed.
   15. Launch IMGburn, and choose to `Create image file from files/folders`
   16. Go to `File` > `Load Project` and load the included *.IBB* project file inside the `tools` folder.
   17. Now go to `Input` > `Advanced`, then click `Show Disc Layout Editor`.
@@ -44,6 +45,7 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
       - SYSTEM.CNF
       - GEN/ (the new one you made, not the one from the original disc!)
       - IOP/
+      (note: while IMGburn may not list the files/folders as such, it will burn them in the exact order you added them.)
   20. Wait for it to finish, then patch the ISO with `DiscPatcher.exe`, with the `Master Disc` option ticked.
   21. **YOU ARE DONE, GO PLAY THE GAME.**
 
