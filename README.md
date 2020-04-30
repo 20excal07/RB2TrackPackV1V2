@@ -1,7 +1,7 @@
 # Rock Band 2 Track Packs Vol.1+2
 Porting Rock Band Track Pack [**Vol.1**](https://en.wikipedia.org/wiki/List_of_Rock_Band_track_packs#Rock_Band_Track_Pack_Vol._1) + [**Vol.2**](https://en.wikipedia.org/wiki/List_of_Rock_Band_track_packs#Rock_Band_Track_Pack_Vol._2) into Rock Band 2 for PlayStation 2
 
-[![Click to watch a demo!](preview.gif)](https://www.youtube.com/watch?v=xfFCk3ADmkU)
+[![Click to watch a demo!](preview.gif)](https://youtu.be/xfFCk3ADmkU?t=80)
 
 ## Features
   1.  Complete metadata for songs. (album title, album art, release year, etc.)
