@@ -1,5 +1,5 @@
 # Rock Band 2 Track Packs Vol.1+2
-Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
+Porting Rock Band Track Pack [**Vol.1**](https://en.wikipedia.org/wiki/List_of_Rock_Band_track_packs#Rock_Band_Track_Pack_Vol._1) + [**Vol.2**](https://en.wikipedia.org/wiki/List_of_Rock_Band_track_packs#Rock_Band_Track_Pack_Vol._2) into Rock Band 2 for PlayStation 2
 
 [![Click to watch a demo!](preview.gif)](https://www.youtube.com/watch?v=xfFCk3ADmkU)
 
