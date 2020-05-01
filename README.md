@@ -9,6 +9,10 @@ Porting Rock Band Track Pack Vol.1 + Vol.2 into Rock Band 2 for PlayStation 2
   5.  Any file compression/extraction utility. (WinRAR, etc)
   5.  A softmodded PS2 - you should be able to load backups or play via a USB drive using OpenPS2Loader.
   6.  A PS2 emulator if you don't have access to a softmodded PS2.
+
+## Recent changes
+  \[01-May-2020\]
+     - Added `joypad_pcsx2.dtb` to the `mod` folder. This file will re-assign the button mapping for menu navigation, designed to aid playing with the drums controller on an emulator, e.g. `L2`/Red to go back, `R2`/Green to confirm, `L1`/`R1`/Yellow/Blue to navigate up & down, etc. If you'd like to use this, simply delete the other `joypad.dtb` and rename this one to that, before executing the script.
   
 ## How to do
   1.  Clone this repo.
