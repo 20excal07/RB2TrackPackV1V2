@@ -47,10 +47,11 @@ echo.
 echo ALL DONE^^! Please use ArkToolGUI to rebuild the ARK files next.
 echo.
 echo Would you also like to play drums with the Dualshock controller?
-echo Please note that this will render the actual drums controller unusable.
+echo You will lose the ability to play on Vocals. Actual drums will still work as normal.
 set /p=Hit [ENTER] to apply a patch that will enable this, or close the window now and skip this.
-ArkTool.exe -r . ../../system/run/config/gen/joypad.dtb mod/joypad.dtb
+ArkTool.exe -r . config/gen/band.dtb mod/band.dtb
 ArkTool.exe -r . config/gen/beatmatch_controller.dtb mod/beatmatch_controller.dtb
+ArkTool.exe -r . ../../system/run/config/gen/joypad.dtb mod/joypad.dtb
 echo.
 echo Patch applied^^! Have fun^^!
 echo.

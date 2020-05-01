@@ -20,8 +20,10 @@ Porting Rock Band Track Pack [**Vol.1**](https://en.wikipedia.org/wiki/List_of_R
   7.  A PS2 emulator if you don't have access to a softmodded PS2.
 
 ## Recent changes
+  - \[02-May-2020\]
+	- The dualshock drums patch method now no longer breaks actual drums functionality! Connecting your drums controller will still allow you to play on Drums as normal. You will, however, still lose access to Vocals. An untested workaround is to try and connect a PS1 controller instead to activate Vocals, because the game seems to be coded to detect those as well.
   - \[01-May-2020\]
-     - Added `joypad_pcsx2.dtb` to the `mod` folder. This file will re-assign the button mapping for menu navigation, designed to aid playing with the drums controller on an emulator, e.g. `L2`/Red to go back, `R2`/Green to confirm, `L1`/`R1`/Yellow/Blue to navigate up & down, etc. If you'd like to use this, simply delete the other `joypad.dtb` and rename this one to that, before executing the script.
+     - Added `joypad_pcsx2.dtb` to the `mod` folder. This file will re-assign the button mapping for menu navigation, designed to aid playing with the drums controller on an emulator, e.g. `L2`/Red to go back, `R2`/Green to confirm, `L1`/`R1`/Yellow/Blue to navigate up & down, etc. If you'd like to use this, simply rename the file to `joypad.dtb` before executing the script.
      - Enhanced Dualshock drums support - you can now also press `Square`, `Triangle` and `Circle` for Red, Yellow and Blue respectively. This should aid players in getting past fast rolling sections.
 
 ## How to do
