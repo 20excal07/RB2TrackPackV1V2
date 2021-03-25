@@ -23,7 +23,7 @@ Porting Rock Band Track Pack [**Vol.1**](https://en.wikipedia.org/wiki/List_of_R
   - \[25-Mar-2021\]
 	- No updates, but please note that the latest nightly build of PCSX2 now supports emulation of the Rock Band drum kit. If you want to play drums on the emulator, you no longer need to apply the dualshock drums patch.
   - \[02-May-2020\]
-	- The dualshock drums patch method now no longer breaks actual drums functionality! Connecting your drums controller will still allow you to play on Drums as normal. You will, however, still lose access to Vocals. An untested workaround is to try and connect a PS1 controller instead to activate Vocals, because the game seems to be coded to detect those as well.
+	- The dualshock drums patch method now no longer breaks actual drums functionality! Connecting your drums controller will still allow you to play on Drums as normal. You will, however, still lose access to Vocals. To activate Vocals with this patch in use, connect a PSX/PS1 controller instead.
   - \[01-May-2020\]
 	- Added `joypad_pcsx2.dtb` to the `mod` folder. This file will re-assign the button mapping for menu navigation, designed to aid playing with the drums controller on an emulator, e.g. `L2`/Red to go back, `R2`/Green to confirm, `L1`/`R1`/Yellow/Blue to navigate up & down, etc. If you'd like to use this, simply rename the file to `joypad.dtb` before executing the script.
 	- Enhanced Dualshock drums support - you can now also press `Square`, `Triangle` and `Circle` for Red, Yellow and Blue respectively. This should aid players in getting past fast rolling sections.
