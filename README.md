@@ -21,7 +21,7 @@ Porting Rock Band Track Pack [**Vol.1**](https://en.wikipedia.org/wiki/List_of_R
 
 ## Recent changes
   - \[25-Mar-2021\]
-	- No updates, but please note that PCSX2 now supports emulation of the Rock Band drum kit. If you want to play drums on the emulator, you no longer need to apply the dualshock drums patch.
+	- No updates, but please note that the latest nightly build of PCSX2 now supports emulation of the Rock Band drum kit. If you want to play drums on the emulator, you no longer need to apply the dualshock drums patch.
   - \[02-May-2020\]
 	- The dualshock drums patch method now no longer breaks actual drums functionality! Connecting your drums controller will still allow you to play on Drums as normal. You will, however, still lose access to Vocals. An untested workaround is to try and connect a PS1 controller instead to activate Vocals, because the game seems to be coded to detect those as well.
   - \[01-May-2020\]
